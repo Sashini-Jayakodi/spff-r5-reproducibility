@@ -1,0 +1,56 @@
+# Local environments and configuration
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+.conda/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.pypirc
+.netrc
+_netrc
+credentials.json
+client_secret*.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Generated reproduction outputs (not canonical source or expected data)
+quick_reproduction/
+reproduction_run/
+local_outputs/
+scripts/nonterminal_exact_results.json
+scripts/nonfft_reproduction_results.json
+figure1.png
+figure1.pdf
+*.log
+*.tmp
+*.bak
+# Local tools, IDE, and machine-specific metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Packaged exports and other incidental large files
+*.zip
+*.7z
+# Real-dataset development: retain source/configuration, exclude bulk inputs/weights
+/data/raw/
+/data/cache/
+/datasets/
+/external_data/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx

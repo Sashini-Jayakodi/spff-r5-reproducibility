@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  PRIVATE FYP DEVELOPMENT. This citation metadata is a draft and grants no
+  distribution or licensing rights. Confirm the complete creator list before
+  release, then cite the approved version and its issued Zenodo DOI.
+type: software
+title: 'SPFF-R5 reproducibility package for Forecasting False Certificates Along Fixed-Sequence Paths: Sharp Coupling Bounds, a General Inference Barrier, and Pilot-Honest Auditing'
+authors:
+  - family-names: Jayakodi
+    given-names: Sashini
+abstract: >-
+  Standalone code and expected synthetic numerical outputs for mathematical
+  fixed-sequence path and pilot auditing experiments. No real image dataset
+  or trained classifier is included. Real-dataset FYP integration is incomplete.
+keywords:
+  - reproducibility
+  - fixed-sequence testing
+  - synthetic numerical experiments

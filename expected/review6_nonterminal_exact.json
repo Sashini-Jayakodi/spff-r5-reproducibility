@@ -1,0 +1,64 @@
+{
+  "scope": "physically nested fixed-count, 3 thresholds, nonterminal unsafe set",
+  "status": "local mathematical verification, not independent proof review",
+  "counts_per_cluster": [
+    1,
+    5,
+    6
+  ],
+  "alpha": 0.35,
+  "delta": 0.1,
+  "n_clusters": 10,
+  "first_unsafe_threshold": 0,
+  "population_risks": [
+    0.5,
+    0.3,
+    0.3333333333333333
+  ],
+  "stage0_max_pass_error": 1,
+  "stage1_max_pass_error": 12,
+  "feasible_t_interval": [
+    0,
+    0.5
+  ],
+  "identification_set_closed": [
+    0.0,
+    0.0107421875
+  ],
+  "identification_set_endpoint_attainment": [
+    "t=1/2",
+    "t=0"
+  ],
+  "exact_points": [
+    {
+      "t_fraction": "0",
+      "probability_fraction": "11/1024",
+      "probability": 0.0107421875,
+      "percentage": 1.07421875
+    },
+    {
+      "t_fraction": "1/8",
+      "probability_fraction": "2880765/268435456",
+      "probability": 0.010731685906648636,
+      "percentage": 1.0731685906648636
+    },
+    {
+      "t_fraction": "1/4",
+      "probability_fraction": "1331/131072",
+      "probability": 0.01015472412109375,
+      "percentage": 1.015472412109375
+    },
+    {
+      "t_fraction": "3/8",
+      "probability_fraction": "1761653/268435456",
+      "probability": 0.006562668830156326,
+      "percentage": 0.6562668830156326
+    },
+    {
+      "t_fraction": "1/2",
+      "probability_fraction": "0",
+      "probability": 0.0,
+      "percentage": 0.0
+    }
+  ]
+}
